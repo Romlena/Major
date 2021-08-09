@@ -1,0 +1,149 @@
+*{margin: 0;
+padding: 0;
+}
+header{
+    background-color: black;
+    padding: 0 20px;
+}
+.header-navbar{
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px!important;
+}
+.header-menu{
+    padding: 20px 15px 0 15px;
+    text-transform: uppercase;
+}
+.header-menu a{
+    color: white!important;
+}
+.header-dropdown{
+    text-transform: none;
+}
+.header-menu-dropdown {
+    background-color: black;
+}
+.header-menu-dropdown a{
+    color: rgb(230, 136, 48)!important;
+    border-bottom: 2px dashed rgb(230, 136, 48);
+}
+.nav>li>a:hover{
+    background-color: black!important;
+}
+.nav>li>a:focus{
+    background-color: black!important;
+}
+.info-company{
+    background-image: url(./img/main.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+  }
+.info-company-title{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 65px;
+    width: 70%;
+}
+.info-company-pictures-img{
+    width: 100px;
+    height: 80px;
+    display: inline-block;
+    margin: 50px;
+}
+.info-company-pictures img{
+height: 100%;
+width: 100%;
+}
+.info-company-button{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-top: 65px;
+    text-align: center;
+    padding: 35px;
+}
+.info-company-button button{
+    background-color:rgb(230, 136, 48);
+    border-color: rgb(230, 136, 48);
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 85%;
+    margin: 10px 0;
+    }
+.cost-calculation{
+    background-color: rgb(58, 56, 56);
+}
+.cost-calculation-title{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
+.cost-calculation-title h3{
+    text-transform: uppercase;
+}
+.cost-calculation-form-title{
+    width: 80%;
+    background-color: rgb(230, 136, 48);
+    padding: 2px 25px;
+    color: white;
+    margin-left: 50px;
+}
+.cost-calculation-form{
+    margin: 35px 50px;
+}
+.cost-calculation-form label{
+    color: white;
+    width: 55px;
+    /* display: inline; */
+   }
+/* label{
+    display: inline;
+} */
+.cost-calculation-form select{
+    width: 75%;
+    height: 30px;
+    padding: 5px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    position: relative;
+}
+.cost-calculation-form select::after{
+    content:'\25BC';
+    background: orange;
+    position:absolute;
+    right:0;
+    top:0;
+    line-height: 2; 
+    padding:0 10px;
+    pointer-events: none;
+}
+.cost-calculation-form-date{
+    margin: 50px;
+    width: 10%;
+    background-color: rgb(58, 56, 56);
+    border: 1px solid rgb(58, 56, 56);
+    position: relative;
+}
+.cost-calculation-form-date::after{
+    content: '';
+    background-image: url(./img/calendar.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+    padding: 0 10px; 
+} 
+.about-cargo{
+    background-color: rgb(82, 79, 79);
+}
+#sel-cargo{
+    width: 32%;
+}
+.about-cargo-parametrs{
+    margin: 5px 25px;
+    padding: 2px 15px;
+}
